@@ -1,0 +1,16 @@
+$primaryColor:rgb(28, 195, 201);
+$secondaryColor : rgb(4, 14, 102);
+$colorMain: #ffffff;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin button($color) {
+    padding: 0.5rem 2rem;
+    color: $colorMain;
+    background-color: $color;
+
+}

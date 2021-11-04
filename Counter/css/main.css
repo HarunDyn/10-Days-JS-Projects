@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #040e66;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.container h1:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  color: #000000;
+}
+
+.container #number {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.container #btn-container {
+  width: 40vw;
+  text-align: center;
+}
+
+.container #btn-container #dec {
+  padding: 0.5rem 2rem;
+  color: #ffffff;
+  background-color: #910303;
+}
+
+.container #btn-container #res {
+  padding: 0.5rem 2rem;
+  color: #ffffff;
+  background-color: #ffffff;
+  color: black;
+}
+
+.container #btn-container #inc {
+  padding: 0.5rem 2rem;
+  color: #ffffff;
+  background-color: #047904;
+}
+/*# sourceMappingURL=main.css.map */
